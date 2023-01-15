@@ -140,22 +140,22 @@ button{
 }  
 .experience-title{
     font-weight: 700;
-font-size: 45px;
-color: #131313;
+    font-size: 45px;
+    color: #131313;
 }
 .experience-description{
     color: #727272;
     width: 586px;
-height: 78px;
-font-weight: 400;
-font-size: 16px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
 }
 .experience-details{
     
     padding:10px;
     background: #FFFFFF;
-box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
 }
 .experience-details-title{
     font-weight: 600;
@@ -164,24 +164,96 @@ border-radius: 8px;
 }
 .experience-details-description{
     font-weight: 400;
-font-size: 16px;
-color: #727272;
-margin-top: 10px;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 10px;
 }
 .experience-image img{
     /* background-image: url("images/architect.png"); */
     width: 640px;
 }
 .experience-button button{
-margin: -200px auto auto -40px;
-width: 342px;
-height: 200px;
-text-align: center;
-border-radius: 8px;
-padding: 45px;
-font-weight: 500;
-font-size: 25px;
-    margin-bottom: 150px;
+    margin: -200px auto auto -40px;
+    width: 342px;
+    height: 200px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 45px;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 110px;
 }
+
+/* some facts styles */
+.some-fact-container{
+    
+}
+.some-fact-info{
+    margin-left: 150px;
+
+}
+.some-fact-title{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+margin-bottom: 24px;
+}
+.some-fact-description{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+width: 542px;
+height: 52px;
+margin-bottom: 50px;
+}
+.some-fact-treasury{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+.some-fact-awards{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241.83px;
+    height: 241.83px;
+/* margin: 50px 36px; */
+}
+.some-fact-score{
+    margin: 10px 97px auto 70px;
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.some-fact-title-2{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin: 5px 35px auto 35px;
+}
+.fa-award{
+    background: #FAA515;
+    color: red;
+    margin: 45px 97px auto 97px;
+}
+.fa-pen-to-square{
+    margin: 45px 97px auto 97px;
+    color: rgb(213, 213, 226);
+    background-color: rgb(25, 25, 232);
+}
+.fa-briefcase{
+    margin: 45px 97px auto 97px;
+    background-color: #FF900E;
+    color: red;
+}
+.fa-envelope{
+    margin: 45px 97px auto 97px;
+    color: #FAA515;
+    background-color: #FF900E;
+}
+
+/* sponsor styles */
+
 
 
