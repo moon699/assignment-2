@@ -4,6 +4,18 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+button{
+    background: #FF900E;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid#FF900E;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+}
 
 /* header styles */
 .header-container{
@@ -66,18 +78,7 @@ body{
     text-align: center;
     margin-bottom: 32px;
 }
-button{
-    background: #FF900E;
-    width: 180px;
-height: 64px;
-border-radius: 8px;
-border: 1px solid#FF900E;
-color: #FFFFFF;
-font-weight: 600;
-font-size: 20px;
-padding: 20px 20px;
-margin-bottom: 50px;
-}
+
 
 .banner-image{
     
@@ -85,3 +86,102 @@ margin-bottom: 50px;
 .banner-image img{
     margin-bottom: 45px;
 }
+
+/* features styles */
+.features-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.features-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 80px 70px auto 295px;
+}
+.features-images img{
+    width: 220px;
+    height: 220px;
+    border-radius: 8px;
+    margin: 5px;
+
+
+}
+.features-info{
+    margin: 170px 300px auto auto;
+}
+.features-title{
+    font-weight: 700;
+    font-size: 45px;
+/* margin-bottom: 30px; */
+    width: 468px;
+    height: 106px;
+
+}
+.featues-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 537px;
+    height: 78px;
+    margin-top: -30px;
+}
+
+/* experience styles */
+.experience-container{
+    display: flex;
+    margin: 120px 90px auto 150px;
+    gap: 50px;
+}
+.experience-info{
+
+}
+.vl {
+    border-left: 5px solid #FF900E;;
+    height: 106px;
+}  
+.experience-title{
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+}
+.experience-description{
+    color: #727272;
+    width: 586px;
+height: 78px;
+font-weight: 400;
+font-size: 16px;
+}
+.experience-details{
+    
+    padding:10px;
+    background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 8px;
+}
+.experience-details-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.experience-details-description{
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+margin-top: 10px;
+}
+.experience-image img{
+    /* background-image: url("images/architect.png"); */
+    width: 640px;
+}
+.experience-button button{
+margin: -200px auto auto -40px;
+width: 342px;
+height: 200px;
+text-align: center;
+border-radius: 8px;
+padding: 45px;
+font-weight: 500;
+font-size: 25px;
+    margin-bottom: 150px;
+}
+
+
