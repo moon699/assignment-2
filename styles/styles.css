@@ -1,0 +1,36 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@500&family=Work+Sans:wght@700&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles */
+.container{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 144, 14, 0.1);
+}
+.header-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    margin: 50px auto auto 230px;
+}
+.nav-bar{
+    ;
+}
+
+.header-navbar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin: 63px 230px auto auto;
+}
+.header-navbar ul a{
+    
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
