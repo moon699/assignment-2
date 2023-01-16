@@ -221,7 +221,7 @@ margin-bottom: 50px;
 /* margin: 50px 36px; */
 }
 .some-fact-score{
-    margin: 10px 97px auto 70px;
+    margin: 10px auto auto 70px;
     font-weight: 600;
     font-size: 45px;
     color: #424242;
@@ -254,6 +254,65 @@ margin-bottom: 50px;
 }
 
 /* sponsor styles */
+.sponsor-container{
+    display: grid;
+    justify-items: center;
+    margin-bottom: 100px;
+}
+.sponsor-info{
+    
+}
+.sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    /* width: 327px;
+    height: 53px; */
+    text-align: center;
+} 
+.sponsor-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    width: 542px;
+height: 52px;
+text-align: center;
+}
+.our-sponsors{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 150px;
+}
 
+.our-sponsors-logo{
+    font-size: 30px;
+    font-weight: 500;
+}
+.fa-spotify{
+    color: #727272;
+}
+.fa-amazon{
+    color: #727272;
+
+}
+.fa-figma{
+    color: #727272;
+}
+
+/* footer styles */
+.footer{
+    margin: 0px 240px 220px 240px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    height: 100px;
+}
+.footer-descripton{
+    color: #424242;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 40px;
+}
 
 
