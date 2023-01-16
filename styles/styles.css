@@ -315,4 +315,25 @@ text-align: center;
     padding-top: 40px;
 }
 
+/* media query  */
 
+@media screen and (max-width:688px) {
+    .header-container, .banner-container, .features-container, .experience-container, .some-fact-container, 
+    .sponsor-container, .footer{
+        width: 100%;
+    } 
+    .features-container{
+        width: 100px;
+    }
+    .features-images{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+
+}
+@media screen and (min-width:688px) and (max-width:992px) {
+    .header-container, .banner-container, .features-container, .experience-container, .some-fact-container, 
+    .sponsor-container, .footer{
+        width: 100%;
+    }
+}
